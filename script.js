@@ -39,25 +39,25 @@ button1.addEventListener("click", () =>
   changeBackgroundImage("url(backgrounds/tech-thunder.gif)")
 );
 button2.addEventListener("click", () =>
-  changeBackgroundImage("url(/backgrounds/studio-ghibli.gif)")
+  changeBackgroundImage("url(backgrounds/studio-ghibli.gif)")
 );
 button3.addEventListener("click", () =>
-  changeBackgroundImage("url(/backgrounds/drive.gif)")
+  changeBackgroundImage("url(backgrounds/drive.gif)")
 );
 button4.addEventListener("click", () =>
-  changeBackgroundImage("url(/backgrounds/plan.gif)")
+  changeBackgroundImage("url(backgrounds/plan.gif)")
 );
 button5.addEventListener("click", () =>
-  changeBackgroundImage("url(/backgrounds/action.gif)")
+  changeBackgroundImage("url(backgrounds/action.gif)")
 );
 button6.addEventListener("click", () =>
-  changeBackgroundImage("url(/backgrounds/develop.gif)")
+  changeBackgroundImage("url(backgrounds/develop.gif)")
 );
 button7.addEventListener("click", () =>
-  changeBackgroundImage("url(/backgrounds/warm.gif)")
+  changeBackgroundImage("url(backgrounds/warm.gif)")
 );
 button8.addEventListener("click", () =>
-  changeBackgroundImage("url(/backgrounds/ai.gif)")
+  changeBackgroundImage("url(backgrounds/ai.gif)")
 );
 
 function changeBackgroundImage(imageUrl) {
