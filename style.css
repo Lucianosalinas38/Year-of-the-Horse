@@ -1,0 +1,152 @@
+body {
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh; /* Adjust the height as needed */
+  max-width: 100%;
+}
+
+.image-set {
+  display: none;
+  margin-top: 100px;
+  text-align: center;
+  display: grid; /* Display as grid */
+  grid-template-columns: repeat(3, 1fr); /* Three columns */
+  grid-gap: 10px;
+  margin-bottom: 20px;
+}
+
+.image-set.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.image-set img {
+  display: grid;
+  width: 100%;
+  max-height: 320px; /* Adjust the maximum height of the images */
+  object-fit: cover;
+  border-radius: 10px; /* Add rounded corner border */
+}
+
+.image-content {
+  margin-top: 200px;
+  text-align: center;
+}
+
+.image-set h3 {
+  font-family: "Holtwood One SC";
+  font-size: 30px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+  color: white;
+  max-width: 100%;
+}
+.image-set h2 {
+  font-family: "Holtwood One SC";
+  font-size: 40px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+  color: white;
+  max-width: 100%;
+}
+
+.button-50 {
+  appearance: button;
+  background-color: #000;
+  background-image: none;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0, #000 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: ITCAvantGardeStd-Bk, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0 5px 10px 0;
+  overflow: visible;
+  padding: 12px 40px;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button-50:focus {
+  text-decoration: none;
+}
+
+.button-50:hover {
+  text-decoration: none;
+}
+
+.button-50:active {
+  box-shadow: rgba(0, 0, 0, 0.125) 0 3px 5px inset;
+  outline: 0;
+}
+
+.button-50:not([disabled]):active {
+  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-50 {
+    padding: 12px 50px;
+  }
+}
+
+.button-wrapper {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  margin-top: 25px;
+  white-space: nowrap;
+}
+
+.background-button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.background-btn {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #333;
+  cursor: pointer;
+}
+
+.background-btn:focus {
+  outline: none;
+}
+
+/* Rest of the CSS styles remain the same */
